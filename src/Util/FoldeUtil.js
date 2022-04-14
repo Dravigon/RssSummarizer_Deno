@@ -9,7 +9,7 @@ function getTodaysFolderName() {
     const mydatestr = "rss_feed_" + curr_year + "_" +
         curr_month + "_" +
         curr_date + "";
-    return FOLDER_LOCATION||"." + "/" +mydatestr;
+    return (FOLDER_LOCATION||".") + "/" +mydatestr;
 }
 const getTodaysRssFileList= async ()=> {
     const todaysFolder = getTodaysFolderName();
