@@ -1,5 +1,7 @@
 import {getTodaysRssFileList} from '../Util/FoldeUtil.js'
 import { parseFeed } from "https://deno.land/x/rss/mod.ts";
+import { Html5Entities } from "https://deno.land/x/html_entities@v1.0/mod.js";
+
 const process_list = [];
 const failList = new Set();
 const parseCacheRssFeed = async ()=>{
@@ -18,11 +20,11 @@ const parseCacheRssFeed = async ()=>{
 
 const processFile = async (filelocation)=>{
     const text = await Deno.readTextFile(filelocation);
-    
+    // console.log(Html5Entities.decode(text))
     let entries="";
     const data = {};
     try{
-        const feed = await parseFeed(text);
+        const feed = await parseFeed(Html5Entities.decode(text));
         entries = feed.entries;
         data.author = feed.author||feed.description||feed.title?.value;
         data.copyright = feed.copyright;
@@ -64,5 +66,9 @@ const processFile = async (filelocation)=>{
     
     
 }
+
+function parseHtml(data){
+    return ;
+  }
 
 export default parseCacheRssFeed;

@@ -4,12 +4,13 @@ import parseCachedRss from './RssParser/index.js'
 import {writeTodaysJson} from './Util/FoldeUtil.js'
 
 
-
-const x= await cacheRssList(rssList);
+// const x= await cacheRssList(rssList);
 
 let final_json = [];
-if(x)
+// if(x)
 final_json = await parseCachedRss();
+
+final_json =  JSON.stringify(final_json) ;
 
 writeTodaysJson(final_json);
 

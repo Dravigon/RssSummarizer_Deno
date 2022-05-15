@@ -5,10 +5,6 @@
     "allowUnusedLabels": false,
     "checkJs": false,
     "experimentalDecorators": true,
-    "jsx": "react",
-    "jsxFactory": "React.createElement",
-    "jsxFragmentFactory": "React.Fragment",
-    "jsxImportSource": "react",
     "keyofStringsOnly": false,
     "lib": [
       "deno.window"
@@ -17,7 +13,6 @@
     "noImplicitAny": true,
     "noImplicitReturns": false,
     "noImplicitThis": true,
-    "noImplicitUseStrict": true,
     "noStrictGenericChecks": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,

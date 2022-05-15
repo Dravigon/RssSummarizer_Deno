@@ -2,6 +2,7 @@ import {existsSync} from "https://deno.land/std/fs/mod.ts";
 import { writableStreamFromWriter } from "https://deno.land/std@0.134.0/streams/mod.ts";
 import {getTodaysFolderName} from '../Util/FoldeUtil.js'
 
+
 const cacheRssList = async(list)=>{
     console.log("starting caching of all rss feeds");
     for (const value of list ){
@@ -19,7 +20,7 @@ const CacheRss = async (url) => {
 
     const pathFound = existsSync(mydatestr)
     if(!pathFound){
-        await Deno.mkdir(mydatestr);
+        await Deno.mkdir(mydatestr, { recursive: true });
     }
   
   if (data.ok&&data.status==200) {
