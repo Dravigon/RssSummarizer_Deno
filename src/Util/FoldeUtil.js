@@ -1,5 +1,6 @@
 
 
+
 const FOLDER_LOCATION = Deno.env.get("RSS_BATCH_FOLDER_LOCATION");
 
 function getTodaysFolderName() {
@@ -32,7 +33,7 @@ const getTodaysRssFileList = async () => {
 
 function writeTodaysJson(data) {
   try {
-    // Deno.writeTextFileSync(getTodaysFolderName()+".json", JSON.stringify(data));
+    
     fetch('https://technewsapi.dravid.dev/', {
       method: 'post',
       body: JSON.stringify(data),
@@ -42,7 +43,8 @@ function writeTodaysJson(data) {
       }
     })
 
-    // return "Written to " + path;
+    Deno.writeTextFileSync(getTodaysFolderName()+".json", JSON.stringify(data));
+    return "Written to " + path;
   } catch (e) {
     return e.message;
   }

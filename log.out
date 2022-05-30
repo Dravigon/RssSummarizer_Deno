@@ -1,0 +1,1379 @@
+Starting to concert all xml to json
+{ filelocation: "./rss_feed_2022_4_29/https%3A%2F%2Fxcelpros.com%2Ffeed%2F" }
+Error: Type html is not supported
+    at SAXParser.parser.onopentag (https://deno.land/x/rss@0.5.5/src/deserializer.ts:290:20)
+    at SAXParser.emit (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1022:48)
+    at SAXParser.emitNode (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1223:10)
+    at SAXParser.openTag (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1343:10)
+    at SAXParser.write (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:897:18)
+    at https://deno.land/x/rss@0.5.5/src/deserializer.ts:297:10
+    at new Promise (<anonymous>)
+    at parse (https://deno.land/x/rss@0.5.5/src/deserializer.ts:97:3)
+    at parseFeed (https://deno.land/x/rss@0.5.5/src/deserializer.ts:35:36)
+    at processFile (file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/RssParser/index.js:27:28)
+{
+  filelocation: "./rss_feed_2022_4_29/http%3A%2F%2Fwww.freetech4teachers.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss%26..."
+}
+TypeError: Cannot read properties of undefined (reading 'map')
+    at mapRss2ToFeed (https://deno.land/x/rss@0.5.5/src/mappers/mapper.ts:245:26)
+    at toFeed (https://deno.land/x/rss@0.5.5/src/mappers/mapper.ts:33:14)
+    at parseFeed (https://deno.land/x/rss@0.5.5/src/deserializer.ts:36:10)
+    at async processFile (file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/RssParser/index.js:27:22)
+{ filelocation: "./rss_feed_2022_4_29/https%3A%2F%2Fwww.howtogeek.com%2F" }
+Error: Type html is not supported
+    at SAXParser.parser.onopentag (https://deno.land/x/rss@0.5.5/src/deserializer.ts:290:20)
+    at SAXParser.emit (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1022:48)
+    at SAXParser.emitNode (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1223:10)
+    at SAXParser.openTag (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1343:10)
+    at SAXParser.write (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:897:18)
+    at https://deno.land/x/rss@0.5.5/src/deserializer.ts:297:10
+    at new Promise (<anonymous>)
+    at parse (https://deno.land/x/rss@0.5.5/src/deserializer.ts:97:3)
+    at parseFeed (https://deno.land/x/rss@0.5.5/src/deserializer.ts:35:36)
+    at processFile (file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/RssParser/index.js:27:28)
+{ filelocation: "./rss_feed_2022_4_29/https%3A%2F%2Fxcelpros.com%2Ffeed%2F" }
+Error: Type html is not supported
+    at SAXParser.parser.onopentag (https://deno.land/x/rss@0.5.5/src/deserializer.ts:290:20)
+    at SAXParser.emit (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1022:48)
+    at SAXParser.emitNode (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1223:10)
+    at SAXParser.openTag (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1343:10)
+    at SAXParser.write (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:897:18)
+    at https://deno.land/x/rss@0.5.5/src/deserializer.ts:297:10
+    at new Promise (<anonymous>)
+    at parse (https://deno.land/x/rss@0.5.5/src/deserializer.ts:97:3)
+    at parseFeed (https://deno.land/x/rss@0.5.5/src/deserializer.ts:35:36)
+    at processFile (file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/RssParser/index.js:27:28)
+{ filelocation: "./rss_feed_2022_4_29/https%3A%2F%2Fwww.howtogeek.com%2F" }
+Error: Type html is not supported
+    at SAXParser.parser.onopentag (https://deno.land/x/rss@0.5.5/src/deserializer.ts:290:20)
+    at SAXParser.emit (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1022:48)
+    at SAXParser.emitNode (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1223:10)
+    at SAXParser.openTag (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:1343:10)
+    at SAXParser.write (https://deno.land/x/sax_ts@v1.2.10/src/sax.ts:897:18)
+    at https://deno.land/x/rss@0.5.5/src/deserializer.ts:297:10
+    at new Promise (<anonymous>)
+    at parse (https://deno.land/x/rss@0.5.5/src/deserializer.ts:97:3)
+    at parseFeed (https://deno.land/x/rss@0.5.5/src/deserializer.ts:35:36)
+    at processFile (file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/RssParser/index.js:27:28)
+{
+  filelocation: "./rss_feed_2022_4_29/http%3A%2F%2Fwww.freetech4teachers.com%2Ffeeds%2Fposts%2Fdefault%3Falt%3Drss%26..."
+}
+TypeError: Cannot read properties of undefined (reading 'map')
+    at mapRss2ToFeed (https://deno.land/x/rss@0.5.5/src/mappers/mapper.ts:245:26)
+    at toFeed (https://deno.land/x/rss@0.5.5/src/mappers/mapper.ts:33:14)
+    at parseFeed (https://deno.land/x/rss@0.5.5/src/deserializer.ts:36:10)
+    at async processFile (file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/RssParser/index.js:27:22)
+    at async parseCacheRssFeed (file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/RssParser/index.js:14:25)
+    at async file:///home/home/Documents/development/NodeBatch/RssSummarizer_Deno/src/index.js:15:12
+Final Json ready
+remaining .... 62
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 61
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 60
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 59
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 58
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 57
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 56
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 23, in <module>
+    desc = unicodedata.normalize("NFKD", data['summary'])
+KeyError: 'summary'
+
+remaining .... 55
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 54
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 53
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 52
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 17, in <module>
+    article.parse()
+  File "/home/home/.local/lib/python3.10/site-packages/newspaper/article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "/home/home/.local/lib/python3.10/site-packages/newspaper/article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://www.firstpost.com/tech/tesla-wont-manufacture-in-india-unless-allowed-to-sell-service-cars-elon-musk-10729831.html on URL https://www.firstpost.com/tech/tesla-wont-manufacture-in-india-unless-allowed-to-sell-service-cars-elon-musk-10729831.html
+
+remaining .... 51
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 50
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 49
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 48
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 47
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 46
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 45
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 44
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 43
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 42
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 41
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 40
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 39
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 23, in <module>
+    desc = unicodedata.normalize("NFKD", data['summary'])
+KeyError: 'summary'
+
+remaining .... 38
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 37
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 23, in <module>
+    desc = unicodedata.normalize("NFKD", data['summary'])
+KeyError: 'summary'
+
+remaining .... 36
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 35
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 34
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 33
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 32
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 31
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 30
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 29
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 28
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 27
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 26
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 25
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 24
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 23
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 22
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 21
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 20
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 19
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 18
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 23, in <module>
+    desc = unicodedata.normalize("NFKD", data['summary'])
+KeyError: 'summary'
+
+remaining .... 17
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 16
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 15
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 14
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 13
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 12
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 11
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 17, in <module>
+    article.parse()
+  File "/home/home/.local/lib/python3.10/site-packages/newspaper/article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "/home/home/.local/lib/python3.10/site-packages/newspaper/article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 503 Server Error: Service Temporarily Unavailable for url: https://www.techdirt.com/2022/05/28/this-week-in-techdirt-history-may-22nd-28th/ on URL https://www.techdirt.com/2022/05/28/this-week-in-techdirt-history-may-22nd-28th/
+
+remaining .... 10
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 9
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 17, in <module>
+    article.parse()
+  File "/home/home/.local/lib/python3.10/site-packages/newspaper/article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "/home/home/.local/lib/python3.10/site-packages/newspaper/article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 403 Client Error: Forbidden for url: https://siliconangle.com/2022/05/27/broadcom-will-tame-vmware-beast/ on URL https://siliconangle.com/2022/05/27/broadcom-will-tame-vmware-beast/
+
+remaining .... 8
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 7
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/home/home/Documents/development/NodeBatch/RssSummarizer_Deno/temp.py", line 23, in <module>
+    desc = unicodedata.normalize("NFKD", data['summary'])
+KeyError: 'summary'
+
+remaining .... 6
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 5
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+remaining .... 4
+[nltk_data] Downloading package punkt to /home/home/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+{
+  x: [
+    {
+      title: "Multiplications and 2 additions are faster than 2 additions",
+      link: "https://stackoverflow.com/questions/72306573/why-does-this-code-execute-more-slowly-after-strength-r..."
+    },
+    {
+      title: "Electronic Catan LCD Tiles",
+      link: "https://coliniuliano.ca/projects/catan-tiles/"
+    },
+    {
+      title: "Building a Budget Homelab NAS Server",
+      link: "https://mtlynch.io/budget-nas/"
+    },
+    {
+      title: "Graviton 3: First Impressions",
+      link: "https://chipsandcheese.com/2022/05/29/graviton-3-first-impressions/"
+    },
+    {
+      title: "Mini-review: The Clockwork Pi DevTerm R-01, or RISC-V on the go",
+      link: "https://www.talospace.com/2022/05/mini-review-clockwork-pi-devterm-r-01.html"
+    }
+  ]
+}
+{
+  newsData: [
+    {
+      author: "MIT Technology Review",
+      copyright: undefined,
+      image: "https://wp.technologyreview.com/wp-content/uploads/2020/01/20130408-ftweekendmag-mit-0030-final-w0-1...",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "EdSurge is an independent information resource and community for everyone involved in education tech...",
+      copyright: "Copyright 2011-2019, EdSurge Inc.",
+      image: "https://www.edsurge.com/assets/EdSurgeBoltIconSquare-fcbc09a7554de1b6d9b5e4b21fcc2b7c64eba0736181def...",
+      news: [
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Emerging technology at the intersection of business, economy, and politics. From Asia, to the world.",
+      copyright: undefined,
+      image: "https://forkast.news/wp-content/uploads/2021/07/cropped-Forkast-Logo-GradientBG-cicle-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Read Dive",
+      copyright: undefined,
+      image: "https://readdive.com/wp-content/uploads/2020/01/cropped-Favicon-Read-Dive-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Opinionated Android news.",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
+      copyright: undefined,
+      image: "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-32x32.png",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "The Verge -  All Posts",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "CNET news editors and reporters provide top technology news, with investigative reporting and in-dep...",
+      copyright: undefined,
+      image: "https://gcp-assets-origin-fly.cnet.com/bundles/cnetcss/images/core/logo/cnet_og.png",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "TechSpot News - All Stories",
+      copyright: "Copyright 2022 TechSpot, Inc. The contents of this feed are available for non-commercial use only.",
+      image: "https://static.techspot.com/images/techspot-rss-logo-small2.png",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object]
+      ]
+    },
+    {},
+    {
+      author: "Now, next, and beyond: Tracking need-to-know trends at the intersection of business and technology",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "Firstpost",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: { name: "PwC", email: undefined, uri: "https://www.pwc.com" },
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "Read the latest technology news and expert analysis from Campaign, the world's leading business medi...",
+      copyright: "Copyright 2022, Haymarket Media Group",
+      image: undefined,
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Where technology decisions are made",
+      copyright: undefined,
+      image: "https://itchronicles.com/wp-content/uploads/2017/04/cropped-IT-Chronicles-01-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "TechnoBuffalo - Technology News, How-Tos, & Reviews",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object]
+      ]
+    },
+    {
+      author: "Web and Future",
+      copyright: undefined,
+      image: "https://www.waftr.com/wp-content/uploads/2014/09/cropped-PicsArt_1366706036346-copy-e1427543697592-3...",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Silicon Republic is a leading source for technology, science and start-up news, information and reso...",
+      copyright: undefined,
+      image: "https://www.siliconrepublic.com/logosmall.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Area19Delegate",
+      copyright: undefined,
+      image: "https://www.area19delegate.org/wp-content/uploads/2018/02/cropped-area19delegate512-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Wallpapers, Samsung Odin, App Reviews, Android tips, Android Update",
+      copyright: undefined,
+      image: "https://www.droidviews.com/wp-content/uploads/2019/06/favicon-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Tech Web, page A1",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "Paperless Is Not A Pedagogy",
+      copyright: undefined,
+      image: "https://alicekeeler.com/wp-content/uploads/2021/01/cropped-alice-logo-final-a-1-50x50.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "GigaOm",
+      copyright: undefined,
+      image: "https://gigaom.com/wp-content/uploads/2022/04/cropped-Favicon-01-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Empowerment through data, knowledge, and expertise",
+      copyright: undefined,
+      image: "https://www.datadriveninvestor.com/wp-content/uploads/2018/05/DDInew-copy-64x64.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Vox -  Recode",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Technology news and opinions",
+      copyright: undefined,
+      image: "https://techengage.com/wp-content/uploads/2019/09/cropped-favicon-4-75x75.jpg",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "The FindLaw Legal Technology Blog.",
+      copyright: undefined,
+      image: "http://images.findlaw.com/logo/logo_news3.gif",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {},
+    {
+      author: "And THAT's Good for YOU!",
+      copyright: undefined,
+      image: "https://dongknows.com/wp-content/uploads/2020/12/cropped-DKT-Site-Icon-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Fresh hacks every day",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "everything hi-fi",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Macworld is your best source for all things Apple. We give you the scoop on what's new, what's best ...",
+      copyright: "Copyright (c) 2022 IDG Communications, Inc.",
+      image: undefined,
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Best Web Design Company in Kenya",
+      copyright: undefined,
+      image: "https://www.afritechmedia.com/wp-content/uploads/2019/02/Afritech-Media-freshblue-100x100.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "ExtremeTech is the Web's top destination for news and analysis of emerging science and technology tr...",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "This is a feed for TechGYD.COM, choose one of the feed readers on the right to subscribe to TechGYD ...",
+      copyright: undefined,
+      image: "http://cdn.techgyd.com/techgyd-feed-logo.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "NYT > Technology",
+      copyright: "Copyright 2022 The New York Times Company",
+      image: "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Ausdroid - Australia's source of mobile and personal technology news",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Washington Post technology news.",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Knowledge Base for IT Pros",
+      copyright: undefined,
+      image: "https://techresearchonline.com/wp-content/uploads/2019/09/full-black-d_favicon-70-70.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Transformative tech coverage that matters",
+      copyright: "Copyright 2022, VentureBeat",
+      image: "https://venturebeat.com/wp-content/themes/vb-news/brand/img/logos/VB_Extended_Logo_40H.png",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Android News, Reviews, How To",
+      copyright: undefined,
+      image: "http://static.feedpress.com/logo/androidauthority-60c9811055e58.jpeg",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "The latest from www.wired.com",
+      copyright: "© Condé Nast 2022",
+      image: undefined,
+      news: [
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "An IT Outsourcing and Software Development Company based out of India and Dallas",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "All things iPod, iPhone, iPad and Beyond",
+      copyright: undefined,
+      image: "https://www.ilounge.com/wp-content/uploads/2022/04/ilounge-favicon-96x96.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Technology News, Blogs, Updates and Tips & Tricks",
+      copyright: undefined,
+      image: "https://techenger.com/wp-content/uploads/2019/12/cropped-techenger-favi-con-32x32.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Techaeris",
+      copyright: undefined,
+      image: "https://techaeris.com/wp-content/uploads/2020/12/cropped-SITE-IDENTITY-LOGO-32x32.jpg",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: {
+        name: "Kunal Chowdhury",
+        email: "noreply@blogger.com",
+        uri: "http://www.blogger.com/profile/12654622239949849381"
+      },
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object]
+      ]
+    },
+    {
+      author: "BleepingComputer - All Stories",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Top Tech Lifestyle Site",
+      copyright: undefined,
+      image: "https://cdn01.vulcanpost.com/assets/logo/vulcan-post-logo-250x40.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "IEEE Spectrum",
+      copyright: undefined,
+      image: "https://spectrum.ieee.org/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8...",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object]
+      ]
+    },
+    {},
+    {
+      author: "Breaking News in Technology & Business",
+      copyright: undefined,
+      image: "https://www.geekwire.com/wp-content/themes/geekwire/dist/images/geekwire-logo-rss.png",
+      news: [
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object]
+      ]
+    },
+    {
+      author: "Covering Microsoft, Apple, Google, Tesla and the web!",
+      copyright: undefined,
+      image: "http://www.redmondpie.com/wp-content/uploads/2015/09/RP-feed-logo.png",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "AppleInsider News Feed",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Techdirt",
+      copyright: undefined,
+      image: "https://i0.wp.com/www.techdirt.com/wp-content/uploads/2022/02/cropped-techdirt-square-512x512-1.png?...",
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Tech and entertainment news, reviews, opinions and insights",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Extracting the signal from the noise.",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object]
+      ]
+    },
+    {
+      author: "Startup and Technology News",
+      copyright: undefined,
+      image: "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Canada’s news source for all things tech",
+      copyright: undefined,
+      image: "https://cdn.mobilesyrup.com/wp-content/uploads/2021/07/cropped-mobilesyrup_favicon-32x32.png",
+      news: [
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: {
+        name: "Team Register",
+        email: "webmaster@theregister.co.uk",
+        uri: "https://www.theregister.com/odds/about/contact/"
+      },
+      copyright: undefined,
+      image: "https://www.theregister.com/Design/graphics/Reg_default/The_Register_r.png",
+      news: [
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "Brought to you by GFI Software",
+      copyright: undefined,
+      image: undefined,
+      news: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ]
+    },
+    {
+      author: "BBC News - Technology",
+      copyright: "Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm...",
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      news: [
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object]
+      ]
+    }
+  ],
+  rankingData: [
+    {
+      link: "https://www.waftr.com/elon-might-buy-twitter-for-a-lower-price-than-44-billion/",
+      title: "Elon might buy Twitter for a lower price than $44 billion",
+      description: "<p>Elon Musk mentioned as twitter reply that he might reduce the price of $44 billion that he bid fo...",
+      polarity: -0.0623188405797101,
+      subjectivity: 0.6192028985507246,
+      image: "https://www.waftr.com/wp-content/uploads/2014/09/cropped-PicsArt_1366706036346-copy-e1427543697592-3...",
+      author: "Web and Future"
+    },
+    {
+      title: "Electronic Catan LCD Tiles",
+      link: "https://coliniuliano.ca/projects/catan-tiles/"
+    },
+    {
+      link: "https://www.bbc.co.uk/news/technology-61409556?at_medium=RSS&at_campaign=KARANGA",
+      title: "Meta being sued by ex-Facebook content moderator",
+      description: "The man worked in Kenya, and says he was paid under £2 an hour to review posts including beheadings.",
+      polarity: -0.025,
+      subjectivity: 0.55,
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      author: "BBC News - Technology"
+    },
+    {
+      title: "Lenovo's Budget-Friendly Smart Clock Essential is 50% Off Today Only",
+      link: "https://www.cnet.com/home/smart-home/lenovos-smart-clock-essential-is-just-25/",
+      img_url: "https://www.cnet.com/a/img/resize/59b6a5ea1608bcaf97bc76200d75386f393c2a94/2020/10/15/6bef023b-b934-...",
+      description: "If you're still slapping a dusty alarm clock with a brass bell on top, you should know that alarm cl..."
+    },
+    {
+      link: "https://www.bbc.co.uk/news/technology-61409558?at_medium=RSS&at_campaign=KARANGA",
+      title: "Royal Mail wants fleet of 500 drones to carry mail to remote UK communities",
+      description: "Fifty drone routes could bring mail to remote communities such as the Hebrides and Isles of Scilly.",
+      polarity: 0.65,
+      subjectivity: 0.7625,
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      author: "BBC News - Technology"
+    },
+    {
+      link: "https://www.bbc.co.uk/news/technology-61497610?at_medium=RSS&at_campaign=KARANGA",
+      title: "Tether device aims to detect risky routes for cyclists",
+      description: "The Tether box collects data of cars passing too close to cyclists, creating a map of hazardous area...",
+      polarity: 0.42000000000000004,
+      subjectivity: 0.58,
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      author: "BBC News - Technology"
+    },
+    {
+      link: "https://www.bleepingcomputer.com/news/security/intuit-warns-of-quickbooks-phishing-threatening-to-su...",
+      title: "Intuit warns of QuickBooks phishing threatening to suspend accounts",
+      description: "Tax software vendor Intuit has warned that QuickBooks customers are being targeted in an ongoing ser...",
+      polarity: -0.005882352941176472,
+      subjectivity: 0.5669934640522876,
+      image: undefined,
+      author: "BleepingComputer - All Stories"
+    },
+    {
+      title: "Robot orders increase 40% in first quarter as desperate employers seek relief from labor shortages, ...",
+      link: "https://www.businessinsider.com/robot-orders-up-40-percent-employers-seek-relief-labor-shortage-2022...",
+      img_url: "https://i.insider.com/62938312f099c4001956c1ba?width=1200&format=jpeg",
+      description: "Robot orders increased 40% in the first quarter of 2022, as businesses seek solutions to the labor c..."
+    },
+    {
+      title: "Biden arrives in Uvalde, Texas to visit mourning families",
+      link: "https://www.axios.com/2022/05/29/biden-uvalde-texas-shooting-mourn",
+      img_url: "https://images.axios.com/AP0dMmIT5EqXOYzL2PuchqigVTw=/0x52:7444x4239/1366x768/2022/05/29/16538425321...",
+      description: "President Biden and first lady Jill Biden are visiting Uvalde, Texas, on Sunday in the wake of this ..."
+    },
+    {
+      title: "Building a Budget Homelab NAS Server",
+      link: "https://mtlynch.io/budget-nas/"
+    },
+    {
+      link: "https://www.bbc.co.uk/news/business-61517729?at_medium=RSS&at_campaign=KARANGA",
+      title: "Canada to ban China's Huawei and ZTE from its 5G networks",
+      description: "The UK, US, Australia and New Zealand have also barred the Chinese telecoms equipment makers.",
+      polarity: -0.5,
+      subjectivity: 1,
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      author: "BBC News - Technology"
+    },
+    {
+      title: "Multiplications and 2 additions are faster than 2 additions",
+      link: "https://stackoverflow.com/questions/72306573/why-does-this-code-execute-more-slowly-after-strength-r..."
+    },
+    {
+      title: "Trump was 'stunned' by Georgia Secretary of State Brad Raffensperger's Republican primary victory: r...",
+      link: "https://www.businessinsider.com/trump-raffensperger-stunned-georgia-secretary-state-republican-prima...",
+      img_url: "https://i.insider.com/6293a615ff955c0019c5ecd5?width=1200&format=jpeg",
+      description: `Trump was "stunned" by Georgia Secretary of State Brad Raffensperger's GOP primary win, per the AJC....`
+    },
+    {
+      link: "https://www.technobuffalo.com/best-star-wars-baking-molds",
+      title: "Baking inspired by a galaxy far, far away",
+      description: "Mold your love for baking and love for Star Wars with these best themed baking molds. (See what I di...",
+      polarity: 0.4271603641456582,
+      subjectivity: 0.6361694677871148,
+      image: undefined,
+      author: "TechnoBuffalo - Technology News, How-Tos, & Reviews"
+    },
+    {
+      link: "https://www.bbc.co.uk/news/technology-61421787?at_medium=RSS&at_campaign=KARANGA",
+      title: "Asteroid mining: Helping to meet Earth's natural resource demands",
+      description: "With Earth’s natural resources running out, people are looking to mineral-rich asteroids to meet dem...",
+      polarity: 0.41875,
+      subjectivity: 0.65625,
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      author: "BBC News - Technology"
+    },
+    {
+      link: "https://www.bbc.co.uk/news/technology-61574207?at_medium=RSS&at_campaign=KARANGA",
+      title: "Facebook owner Meta updates its privacy policy",
+      description: "But the company says the changes don’t allow Meta to collect, use or share your data in new ways",
+      polarity: 0.4,
+      subjectivity: 0.8,
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      author: "BBC News - Technology"
+    },
+    {
+      title: "Keep Your Car on the Road With Up to 48% Off Auto Tools and Equipment",
+      link: "https://www.cnet.com/roadshow/news/keep-your-car-on-the-road-with-up-to-48-off-auto-tools-and-equipm...",
+      img_url: "https://www.cnet.com/a/img/resize/d61060390d8f95cb0c870151a14d1187ab25b499/2022/05/29/36b9f27d-21fd-...",
+      description: "Not only is your car probably one of the most expensive things you own, but a breakdown can throw a ..."
+    },
+    {
+      title: "Which one state has never sent a woman to Congress?",
+      link: "https://www.axios.com/2022/05/29/vermont-woman-congress-primary",
+      img_url: "https://images.axios.com/ujwrUVqjCSvMDV8pUtkv4oV8j08=/0x0:1920x1080/1366x768/2022/05/29/165383694840...",
+      description: "I wouldn't have guessed Vermont, either.\n\nDriving the news: With a rare opening in its congressional..."
+    },
+    {
+      title: "Mini-review: The Clockwork Pi DevTerm R-01, or RISC-V on the go",
+      link: "https://www.talospace.com/2022/05/mini-review-clockwork-pi-devterm-r-01.html"
+    },
+    {
+      title: "DOJ to review police response to Uvalde shooting",
+      link: "https://www.axios.com/2022/05/29/doj-review-uvalde-law-response-enforcement",
+      img_url: "https://images.axios.com/heawzQH4dRuqWGlfEda2c43pngg=/0x63:2048x1215/1366x768/2022/05/29/16538442824...",
+      description: "The Department of Justice will conduct a review of local law enforcement's response to the Uvalde ma..."
+    },
+    {
+      title: "The price of key battery metals used in electric vehicle production is expected to fall in coming ye...",
+      link: "https://www.businessinsider.com/battery-metals-price-expected-drop-electric-vehicles-production-2022...",
+      img_url: "https://i.insider.com/6293978bff955c0019c5ec0a?width=1200&format=jpeg",
+      description: "The cost of electric vehicles battery metals is expected to drop in response to oversupply.\n\nThe mar..."
+    },
+    {
+      title: "'Ms. Marvel' Release Schedule: When Does Episode 1 Hit Disney Plus?",
+      link: "https://www.cnet.com/culture/entertainment/ms-marvel-release-schedule-when-does-episode-1-premiere-d...",
+      img_url: "https://www.cnet.com/a/img/resize/8974a30d1b9055e91cf573183185b5826d53653e/2022/05/25/68a7754f-ff3e-...",
+      description: 'Life is shaping up to get "cosmic" for Kamala Khan, a Muslim American high school student from Jerse...'
+    },
+    {
+      title: "Why L.A. mayor’s race matters",
+      link: "https://www.axios.com/2022/05/29/why-la-mayors-race-matters",
+      img_url: "https://images.axios.com/tvg4SwHWHNiHK1I5S0xx-cv6sDU=/384x211:1728x967/1366x768/2022/05/27/165369289...",
+      description: "Los Angeles is one of America's top Democratic power centers. But with crime up and homelessness out..."
+    },
+    {
+      title: "Graviton 3: First Impressions",
+      link: "https://chipsandcheese.com/2022/05/29/graviton-3-first-impressions/"
+    },
+    {
+      link: "https://www.bbc.co.uk/news/technology-61506705?at_medium=RSS&at_campaign=KARANGA",
+      title: "Subsea internet cables could help detect earthquakes",
+      description: "Optical-fibre cables could spot tsunamis or the effect of climate change on currents, researchers sa...",
+      polarity: -0.5,
+      subjectivity: 0.85,
+      image: "https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif",
+      author: "BBC News - Technology"
+    }
+  ]
+}
